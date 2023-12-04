@@ -1,0 +1,21 @@
+let message =  "NNEESOOESEENNEEOOSEOSEEENNESENSSENNEESSOOEEENNEEOOSEOSEEENEENOOEESOOSEEEEEEENONSESENNSSENNEESSOOEEENNSSEENNSSEEENOONEEOOSEESEEEENNEESSOOEEENNEESOOEESENNESENSSEEENOONEEOOSEESEEEENNSSEEENNEESOOEESEEEENNEEOOSEOSEEENNEESSOOEEENNEESOOESEENNEEOOSEOSEEEENNOEEOSSEEEEENNEESOOEESOOEEENNEESOOESEENNSSEENNSSENNESNESSENNEEOOSEOSEEENNSSEENNSSEEENOONEEOOSEESENNEEOOSEOSEEEEEENNEESSOOEEENNEEOOSEOSEEENNESNESSENNEESOOEESENNSSENNESENSS";
+
+setPos(0,300);
+changeColor(color.red);
+
+// Pour chaque lettre (parcours le tableau)
+for(let i = 0 ; i < message.length ; i++){
+    let lettre = message[i];
+
+    if(lettre == "N") {
+        faceUp();
+    } else if(lettre == "S") {
+        faceDown();
+    } else if(lettre == "O") {
+        faceLeft();
+    } else {
+        faceRight();
+    }
+    forward(7);
+}
+// Réponse : Rendez vous dans la foret brumeuse demain
