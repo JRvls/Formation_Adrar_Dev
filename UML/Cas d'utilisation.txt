@@ -1,0 +1,22 @@
+1) Déterminer les cas d'utilisation et les acteurs primaires et secondaires associés. 
+
+- Classifier les documents
+	-Acteur primaire : Bibliothécaire
+
+-Consulter des index de documents
+	-Acteur primaire : Adhérent
+
+-Emprunter un livre
+	-Acteur primaire : Adhérent
+	-Acteur secondaire : Bibliothécaire
+
+-Louer un livre
+	-Acteur primaire : Adhérent
+	-Acteur secondaire : Bibliothécaire
+
+-Retourner des documents
+	-Acteur primaire : Adhérent
+	-Acteur primaire : Bibliothécaire
+
+-S'authentifier
+	
