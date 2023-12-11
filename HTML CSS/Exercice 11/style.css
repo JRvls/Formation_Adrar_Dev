@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  border: double 4px blueviolet;
+}
+table th,
+table td {
+  border: solid 2px;
+}
+
+th {
+  background-color: lightblue;
+}
+
+caption {
+  color: blueviolet;
+}
+
+.container caption {
+  color: black;
+}
+
+.container table {
+  border-collapse: separate;
+  border: dotted 4px red;
+}
+
+.container table th,
+.container td {
+  border: dashed 4px orange;
+}
