@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP CONTACT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banniere">
+        <img src="https://placehold.co/800x200" alt="" />
+      </div>
+      <h1>Une page contact bien belle ma foi</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="form">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Contact</legend>
+          <div>
+            <label for="nom">Nom : <span>*</span></label>
+            <input
+              type="text"
+              minlength="2"
+              maxlength="20"
+              placeholder="Ex: Majin Buu"
+            />
+          </div>
+          <div>
+            <label for="email">Email : <span>*</span></label
+            ><input type="email" placeholder="majinbuu@babibi.com" />
+          </div>
+          <div>
+            <label for="msg">
+              <textarea
+                name="msg"
+                id=""
+                cols="70"
+                rows="10"
+                placeholder="Je veux détruire la terre uwu..."
+              ></textarea>
+            </label>
+          </div>
+          <div>
+            <input checked type="checkbox" name="copie_mail" id="" />
+            <label for="copie_mail">Envoyer une copie</label>
+          </div>
+          <div>
+            <input type="submit" value="Envoyer" />
+            <input type="reset" value="Réinitialiser le formulaire" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Un</a></li>
+        <li><a href="#">Deux</a></li>
+        <li><a href="#">Trois</a></li>
+        <li><a href="#">Quatre</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

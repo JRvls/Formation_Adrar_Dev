@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.html" />
+    <title>Contact</title>
+    <header>
+      <h1>Bienvenue sur mon site !</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#ipsum">Blog</a></li>
+          <li><a href="">Gallerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </head>
+
+  <body>
+    <section>
+      <form action="/index.html" method="post"></form>
+      <fieldset>
+        <legend>Contact</legend>
+        <div>
+          <label for="name" class="obligatoire">Nom:</label>
+          <input
+            type="text"
+            maxlength="20"
+            minlength="2"
+            placeholder="Ex: Dubois"
+            required
+          />
+        </div>
+        <div>
+          <label for="email" class="obligatoire">Email:</label>
+          <input type="mail" placeholder="Ex: monMail@FAI.com" required />
+        </div>
+        <div>
+          <label for="textarea">Laissez un commentaire:</label><br />
+          <textarea name="commentaire" cols="70" rows="10">
+J'adore ce que vous faites !
+            </textarea
+          >
+        </div>
+        <div>
+          <input type="checkbox" checked />
+          <label for="html"> Envoyer une copie par E-mail ! </label>
+        </div>
+        <div>
+          <input type="button" value="Submit" />
+          <input type="button" value="Reset" />
+        </div>
+      </fieldset>
+    </section>
+  </body>
+
+  <footer>
+    <ul>
+      <li>
+        <a target="_blank" href="https://www.op.gg/summoners/euw/Gumz-ADC"
+          >Menu 1</a
+        >
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://www.op.gg/summoners/euw/Suan%20gongji-EUW"
+          >Menu 2</a
+        >
+      </li>
+      <li><a target="_blank" href="https://loldle.net/">Menu 3</a></li>
+    </ul>
+  </footer>
+</html>

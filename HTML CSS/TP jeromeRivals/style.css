@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to top center, #ccdae0, #edf2f4);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #ef233c;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: impact;
+}
+
+h3 {
+  color: #2b2d42;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline dotted;
+}
+
+article {
+  border: solid 2px black;
+}
+
+img {
+  display: flex;
+  margin: auto;
+}
+
+footer {
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+}
+
+.obligatoire::after {
+  content: "*";
+  color: red;
+}
