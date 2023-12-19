@@ -1,0 +1,52 @@
+header {
+    height: 10vh;
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px ;
+}
+
+article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    border: 1px black solid;
+    text-align: center;
+}
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 5px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    article {
+        width: 80%;
+        margin-top: 1em;
+    }
+}
