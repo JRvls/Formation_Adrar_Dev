@@ -1,0 +1,32 @@
+#container {
+  height: 100px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#container > div {
+  grid-row: 2;
+}
+
+#container > h1 {
+  grid-row: 1;
+  grid-column: 2;
+  align-self: center;
+}
+
+#container > nav {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#container > footer {
+  grid-row: 3;
+}
+
+nav ul {
+  display: grid;
+  align-self: end;
+  grid-template-columns: repeat(5, 1fr);
+}

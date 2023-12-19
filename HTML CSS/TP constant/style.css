@@ -1,0 +1,81 @@
+/* PARAMETRES GENERAUX */
+body {
+  background: radial-gradient(circle at top, #ccdae0, #edf2f4);
+}
+
+div,
+header {
+  text-align: center;
+}
+
+a:link {
+  color: #d90429;
+}
+
+a:visited {
+  color: grey;
+}
+
+span {
+  color: red;
+}
+/* PARAMTRES HEADER */
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ef233c;
+  letter-spacing: 2px;
+}
+
+li {
+  list-style: none;
+}
+
+/* PARAMETRE SECTION */
+
+section {
+  border: 1px solid black;
+}
+
+h3 {
+  text-decoration: underline dotted;
+  color: #2b2d42;
+  text-align: left;
+}
+
+section img {
+  border: 2px solid #8d99ae;
+}
+
+footer {
+  text-align: right;
+}
+
+/* PARAMETRES FORMULAIRE */
+#form {
+  border: none;
+}
+
+section form div {
+  text-align: left;
+}
+
+/* PARAMETRE TABLEAU*/
+table {
+  width: 350px;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td,
+th {
+  border: 2px red solid;
+}
+
+/* PARAMETRE CAROUSEL */
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
