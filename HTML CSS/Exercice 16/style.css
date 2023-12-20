@@ -1,0 +1,37 @@
+div {
+    background: blueviolet;
+    height: 300px;
+    width: 300px;
+}
+
+p {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+
+@media only screen and (min-width: 1000px){
+    body {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px){
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        grid-row: 2;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
